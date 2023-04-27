@@ -1,7 +1,7 @@
 def find_missing_element(a):
     a.sort()
     b=[]
-    for i in range(a[-1]):
+    for i in range(1,a[-1]):
         b=b+[i]
     for k in a:
         if k in b:
