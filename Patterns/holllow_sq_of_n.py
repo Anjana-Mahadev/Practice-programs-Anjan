@@ -21,3 +21,5 @@ def generate_hollow_square(n):
 
 square=generate_hollow_square(5)
 print(square)
+for i in square:
+    print(i)
